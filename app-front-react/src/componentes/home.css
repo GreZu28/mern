@@ -1,0 +1,37 @@
+.home-container {
+    text-align: center;
+    margin: auto;
+}
+
+.home-title {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 3rem;
+    color: darkslateblue
+}
+
+.home-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.section-icon {
+    text-align: center;
+}
+
+.icon-img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.icon-text {
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    
+}

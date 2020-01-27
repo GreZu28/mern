@@ -1,2 +1,31 @@
-.form-label {
+.main-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #000099;
+}
+
+.register-form {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.register-button {
+    background-color: rgb(46, 58, 121);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.register-button:hover, .register-button:focus {
+    background-color: rgba(46, 58, 121, 0.85);
+    color: white;
+}
+
+.register-button:active {
+    box-shadow: none;
+    transform: translateY(2px);
 }

@@ -4,13 +4,13 @@ const Schema = mongoose.Schema;
 //TODO:Validaciones campos BBDD
 
 let Usuario = new Schema({
-    nombre:{
-        type: String
-    },
     email:{
         type: String
     },
     password:{
+        type: String
+    },
+    nombre:{
         type: String
     }
 });
