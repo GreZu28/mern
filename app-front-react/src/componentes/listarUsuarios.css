@@ -1,5 +1,6 @@
 .users-table {
     margin: 0 auto;
+    border-collapse: collapse;
 }
 
 .table-th {
@@ -9,11 +10,39 @@
     padding-right: 32px;
     background-color: darkslateblue;
     color: white;
-
 }
+
+.table-th:not(:last-child) {
+    border-right: 2px solid white;
+}
+
 .table-td {
     padding: 8px;
-    border: 1px solid darkslateblue;
     color: #3e4444;
 }
 
+.action-link {
+    display: inline-block;
+}
+
+.actions-buttons {
+    width: 30px;
+    height: 30px;
+    margin-left:7px;
+    margin-right: 7px;
+}
+
+.table-tr:not(:last-child) .table-td {
+    border-bottom: 1px solid darkslateblue;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #000099;
+}
